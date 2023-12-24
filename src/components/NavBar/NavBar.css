@@ -1,0 +1,35 @@
+nav {
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    font-size: 18px;
+}
+nav div  {
+    display: flex
+}
+nav div img {
+    width: 150px;
+    cursor: pointer;
+}
+nav ul {
+    display: flex;
+}
+nav ul li {
+    list-style: none;
+    margin: auto 20px;
+    cursor: pointer;
+}
+.signIn {
+    background-color: #ff9900;
+    font-weight: 500;
+    border: 2px solid #000000;
+    border-radius: 8px;
+    padding: 5px 12px;
+
+    transition: .3s;
+}
+.signIn:hover {
+    background-color: #ffffff;
+}
